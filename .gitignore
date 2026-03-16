@@ -6,5 +6,5 @@
 /.react-router/
 /build/
 
-#
-app\src\client.js
+# secert key 
+app/src/client.js
