@@ -48,8 +48,8 @@ export function Welcome() {
 
 const resources = [
   {
-    href: "https://reactrouter.com/docs",
-    text: "React Router Docs",
+    href: "https://www.youtube.com/@rronquillo",
+    text: "Hi",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -68,8 +68,8 @@ const resources = [
     ),
   },
   {
-    href: "https://rmx.as/discord",
-    text: "Join Discord",
+    href: "/view/1",
+    text: "yo0",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
