@@ -2,10 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Content Creator App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Creator App</title>
+
+    <!-- PICO CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+
+    <!-- YOUR CSS (override pico if needed) -->
+    <link rel="stylesheet" href="/src/css/card.css" />
+    <link rel="stylesheet" href="/src/css/form.css" />
   </head>
+
   <body>
-    <div id="root"></div>
-    <script type="module" src="/App/main.jsx"></script>
+    <!-- REACT ROOT -->
+    <main class="container">
+      <div id="root"></div>
+    </main>
+
+    <!-- REACT ENTRY -->
+    <script type="module" src="/Application/main.jsx"></script>
   </body>
 </html>

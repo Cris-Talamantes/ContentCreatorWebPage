@@ -1,0 +1,130 @@
+/* GRID */
+.creator-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+}
+
+
+/* CARD */
+.creator-card {
+  min-height: 460px;
+  border: 2px solid rgba(116, 146, 186, 0.45);
+  border-radius: 6px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 0 1px rgba(100, 140, 200, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.creator-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px rgba(80, 140, 255, 0.4);
+}
+
+
+
+
+
+
+/* TOP ICONS */
+.creator-top-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.6rem;
+}
+
+
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: white;
+  color: #0e1b2d;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.icon-btn:hover {
+  transform: scale(1.1);
+}
+
+
+/* CONTENT */
+.creator-content {
+  margin-top: auto;
+}
+
+
+/* NAME */
+.creator-name {
+  color: #4f88c7;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+
+/* SOCIAL ICONS */
+.creator-socials {
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+
+.social-link {
+  width: 45px;
+  height: 45px;
+  background: white;
+  color: black;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+
+.social-link:hover {
+  background: #dfeaff;
+}
+
+
+/* DESCRIPTION */
+.creator-description {
+  color: white;
+  font-size: 0.95rem;
+  line-height: 1.4;
+
+
+  /* truncate text */
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+
+/* EMPTY TEXT */
+.empty-text {
+  text-align: center;
+  color: #4f88c7;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .creator-grid {
+    grid-template-columns: 1fr;
+  }
+}

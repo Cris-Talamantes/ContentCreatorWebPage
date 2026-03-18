@@ -1,0 +1,99 @@
+.hero {
+  height: 55vh;
+  background-image: url("Earth.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 10, 20, 0.35);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 900;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.add-creator-section {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.creator-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.creator-form label {
+  color: white;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.creator-form small,
+.social-subtitle {
+  color: white;
+  font-size: 0.75rem;
+  font-style: italic;
+  margin-top: -0.35rem;
+  margin-bottom: 0.3rem;
+}
+
+.creator-form input,
+.creator-form textarea {
+  width: 100%;
+  background: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 2px;
+  padding: 0.8rem 1rem;
+  box-sizing: border-box;
+}
+
+.creator-form textarea {
+  resize: vertical;
+  min-height: 110px;
+}
+
+.social-title {
+  color: #4f88c7;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  font-weight: 900;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.submit-btn {
+  margin-top: 0.8rem;
+  background: #5f8fbe;
+  border: none;
+  color: white;
+  font-weight: 800;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background: #78a7d2;
+}
