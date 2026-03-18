@@ -1,87 +1,67 @@
-# Welcome to React Router!
+# WEB103 Prework - *👉🏿 ContentCreatorWebsite*
 
-A modern, production-ready template for building full-stack React applications using React Router.
+Submitted by: **👉🏿 Cristobal Talamantes*
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+About this web app: **👉🏿 Add youtubers to  the website**
 
-## Features
+Time spent: **👉🏿 24** hours
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## Required Features
 
-## Getting Started
+The following **required** functionality is completed:
 
-### Installation
+<!-- 👉🏿👉🏿👉🏿 Make sure to check off completed functionality below -->
+- [X ] **A logical component structure in React is used to create the frontend of the app**
+- [ X] **At least five content creators are displayed on the homepage of the app**
+- [ ]X **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
+- [ ]X **API calls use the async/await design pattern via Axios or fetch()**
+- [ ]X **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
+- [ X] **Each content creator has their own unique URL**
+- [ X] **The user can edit a content creator to change their name, url, or description**
+- [ X] **The user can delete a content creator**
+- [ X] **The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage**
 
-Install the dependencies:
+The following **optional** features are implemented:
 
-```bash
-npm install
-```
+- [ X] Picocss is used to style HTML elements
+- [ X] The content creator items are displayed in a creative format, like cards instead of a list
+- [ X] An image of each content creator is shown on their content creator card
 
-### Development
+The following **additional** features are implemented:
 
-Start the development server with HMR:
+* [ ] List anything else that you added to improve the site's functionality!
 
-```bash
-npm run dev
-```
+## Video Walkthrough
 
-Your application will be available at `http://localhost:5173`.
+Here's a walkthrough of implemented required features:
 
-## Building for Production
+👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-Create a production build:
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with ...  👉🏿 GIF tool here
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
 
-```bash
-npm run build
-```
+## Notes
 
-## Deployment
+Describe any challenges encountered while building the app or any additional context you'd like to add.
 
-### Docker Deployment
+Lost everything when i finished the product and had to redo do it from strach after github desktop deleted my changes when i was pushing. It didn'y push but instead force me to go back to my last push project. 
 
-To build and run using Docker:
+Had to refactor routing from vite to make sure it was the the wanted routing method. used Vite framework first then had to refactor to use import { useRoutes } from "react-router-dom"; instead. 
 
-```bash
-docker build -t my-app .
+UI as i had to redo everything so i didn't have to up update it to be pretty
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
+Database for youtube, twitter, and instagram. Was confused if i needed more table to include different Social media but decided not to because the i noticed the gif and instruction not updating their dtatabase to have it. 
 
-The containerized application can be deployed to any platform that supports Docker, including:
+## License
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
+Copyright [👉🏿 yyyy] [👉🏿 name of copyright owner]
 
-### DIY Deployment
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
+> http://www.apache.org/licenses/LICENSE-2.0
 
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
